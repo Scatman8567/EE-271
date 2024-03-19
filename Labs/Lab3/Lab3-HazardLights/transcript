@@ -1,0 +1,55 @@
+# Reading D:/ee271/quartus/modelsim_ase/tcl/vsim/pref.tcl
+run runlab.do
+# No Design Loaded!
+do {D:/ee271/lab3/HazardLights - Copy/wave.do}
+do {D:/ee271/lab3/HazardLights - Copy/runlab.do}
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:32 on Feb 08,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 15:52:32 on Feb 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:52:32 on Feb 08,2024
+# vlog -reportprogress 300 ./Hazard_Lights.sv 
+# -- Compiling module Hazard_Lights
+# -- Compiling module Hazard_Lights_testbench
+# 
+# Top level modules:
+# 	Hazard_Lights_testbench
+# End time: 15:52:32 on Feb 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 15:52:33 on Feb 08,2024
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.Hazard_Lights
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Chase  Hostname: LAPTOP-9QIQQKER  ProcessID: 10996
+#           Attempting to use alternate WLF file "./wlftn5vg66".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftn5vg66
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(81)
+#    Time: 2250 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 81
+# ** Error: (vish-4014) No objects found matching '/mux2_1_testbench/i0'.
+# Executing ONERROR command at macro D:\ee271\lab3\HazardLights - Copy\wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/mux2_1_testbench/i1'.
+# Executing ONERROR command at macro D:\ee271\lab3\HazardLights - Copy\wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/mux2_1_testbench/sel'.
+# Executing ONERROR command at macro D:\ee271\lab3\HazardLights - Copy\wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/mux2_1_testbench/out'.
+# Executing ONERROR command at macro D:\ee271\lab3\HazardLights - Copy\wave.do line 6
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/ee271/lab3/HazardLights - Copy/DE1_SoC_wave.do}
+# End time: 16:44:38 on Feb 08,2024, Elapsed time: 0:52:05
+# Errors: 12, Warnings: 2
