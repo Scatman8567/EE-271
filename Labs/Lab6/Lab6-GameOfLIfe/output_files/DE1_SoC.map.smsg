@@ -1,0 +1,4 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10268): Verilog HDL information at pixel_state.sv(14): always construct contains both blocking and non-blocking assignments File: D:/EE271/ee271labs/lab6/lab1starterfiles/pixel_state.sv Line: 14
+Warning (10268): Verilog HDL information at coordinate_select.sv(8): always construct contains both blocking and non-blocking assignments File: D:/EE271/ee271labs/lab6/lab1starterfiles/coordinate_select.sv Line: 8
+Warning (10030): Net "board" at DE1_SoC.sv(25) has no driver or initial value, using a default initial value '0' File: D:/EE271/ee271labs/lab6/lab1starterfiles/DE1_SoC.sv Line: 25
