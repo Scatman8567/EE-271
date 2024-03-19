@@ -1,0 +1,27 @@
+module coordinate_select(Clock, Reset, l, r, u, d, board, px, py, nx, ny);
+					input logic Clock, Reset;
+					input logic l, r, u, d; // directional inputs
+					input logic [ 7:0 ][ 7:0 ] board; // playing board
+					input logic [ 7:0 ] px, py; // present x state, present y state
+					output logic [ 7:0 ] nx, ny; //next x state, next y state
+					
+	always_ff @(posedge Clock) begin
+		if (Reset) 
+			nx <= 0;
+			ny <= 0;
+		else begin
+			if (l & !r) begin
+				next_x = current_x + 1;
+			end
+			else if (r & !l) begin
+				next_x = current_x - 1;
+			end
+			if (u & !d) begin
+				next_x = current_x - 1;
+			end
+			else if (d & !u) begin
+				next_x = current_x + 1;
+			end
+		end
+	end
+endmodule
