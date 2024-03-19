@@ -1,0 +1,23 @@
+module player (Clock, Reset, key, o);
+			input logic Clock, Reset, key;
+			output logic o;
+		enum {on, off} ps, ns;
+		
+		always_comb begin
+			case(ps)
+				on: if(key) ns = on;
+						else ns = off;
+				off: if(key) ns = on;
+						else ns = off;
+			endcase
+		end
+		
+		assign out = (ps == on & ns == off);
+		
+		always_ff @(posedge Clock) begin
+			if(Reset)
+					ps <= off;
+			else 
+					ps <= ns;
+			end
+endmodule

@@ -1,0 +1,399 @@
+# Reading D:/ee271/quartus/modelsim_ase/tcl/vsim/pref.tcl
+run runlab.do
+# No Design Loaded!
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:31 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 13:11:31 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 13:11:31 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(80)
+#    Time: 2250 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 80
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:12:27 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 13:12:27 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:12:28 on Feb 12,2024, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 13:12:28 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(80)
+#    Time: 2250 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 80
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:16:09 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 13:16:09 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:16:15 on Feb 12,2024, Elapsed time: 0:03:47
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 13:16:15 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(90)
+#    Time: 3250 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 90
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:55 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 13:18:55 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:19:01 on Feb 12,2024, Elapsed time: 0:02:46
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 13:19:01 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(91)
+#    Time: 3350 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 91
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:19:18 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 13:19:18 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:19:19 on Feb 12,2024, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 13:19:19 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(91)
+#    Time: 3350 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 91
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:06 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 13:25:07 on Feb 12,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:25:09 on Feb 12,2024, Elapsed time: 0:05:50
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 13:25:10 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(93)
+#    Time: 3750 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 93
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:32:49 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 13:32:49 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:32:55 on Feb 12,2024, Elapsed time: 0:07:45
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 13:32:55 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(93)
+#    Time: 3750 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 93
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:28 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 13:39:28 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:39:33 on Feb 12,2024, Elapsed time: 0:06:38
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 13:39:33 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 7350 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 129
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:33 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 13:40:33 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:40:40 on Feb 12,2024, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 13:40:40 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 3650 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 129
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:01 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 14:20:01 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:20:06 on Feb 12,2024, Elapsed time: 0:39:26
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 14:20:06 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(130)
+#    Time: 7250 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 130
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:21:53 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 14:21:53 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:21:57 on Feb 12,2024, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 14:21:57 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(128): Variable '/DE1_SocTestbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SocTestbench File: ./DE1_SoC.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 7250 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 129
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:22:32 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 14:22:32 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:22:42 on Feb 12,2024, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 14:22:42 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(127): Variable '/DE1_SocTestbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SocTestbench File: ./DE1_SoC.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 7250 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 129
+do D:/ee271/lab4/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:23:04 on Feb 12,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 14:23:04 on Feb 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:23:09 on Feb 12,2024, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 14:23:09 on Feb 12,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# ** Warning: (vsim-3839) ./DE1_SoC.sv(125): Variable '/DE1_SocTestbench/HEX0', driven via a port connection, is multiply driven. See ./DE1_SoC.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SocTestbench File: ./DE1_SoC.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 7250 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 129
+# End time: 17:02:26 on Feb 13,2024, Elapsed time: 26:39:17
+# Errors: 0, Warnings: 1
