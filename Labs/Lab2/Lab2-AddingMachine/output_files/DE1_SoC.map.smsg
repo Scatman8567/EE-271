@@ -1,0 +1,9 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (10281): Verilog HDL Declaration information at DE1.SoC.sv(4): object "HEX4" differs only in case from object "Hex4" in the same scope File: D:/EE271/ee271labs/lab2/lab1starterfiles/DE1.SoC.sv Line: 4
+Info (10281): Verilog HDL Declaration information at DE1.SoC.sv(4): object "HEX5" differs only in case from object "Hex5" in the same scope File: D:/EE271/ee271labs/lab2/lab1starterfiles/DE1.SoC.sv Line: 4
+Info (10281): Verilog HDL Declaration information at AddingMachine.sv(4): object "HEX0" differs only in case from object "Hex0" in the same scope File: D:/EE271/ee271labs/lab2/lab1starterfiles/AddingMachine.sv Line: 4
+Info (10281): Verilog HDL Declaration information at AddingMachine.sv(4): object "HEX1" differs only in case from object "Hex1" in the same scope File: D:/EE271/ee271labs/lab2/lab1starterfiles/AddingMachine.sv Line: 4
+Info (10281): Verilog HDL Declaration information at AddingMachine.sv(4): object "HEX2" differs only in case from object "Hex2" in the same scope File: D:/EE271/ee271labs/lab2/lab1starterfiles/AddingMachine.sv Line: 4
+Info (10281): Verilog HDL Declaration information at AddingMachine.sv(4): object "HEX3" differs only in case from object "Hex3" in the same scope File: D:/EE271/ee271labs/lab2/lab1starterfiles/AddingMachine.sv Line: 4
+Info (10281): Verilog HDL Declaration information at AddingMachine.sv(4): object "HEX4" differs only in case from object "Hex4" in the same scope File: D:/EE271/ee271labs/lab2/lab1starterfiles/AddingMachine.sv Line: 4
+Info (10281): Verilog HDL Declaration information at AddingMachine.sv(4): object "HEX5" differs only in case from object "Hex5" in the same scope File: D:/EE271/ee271labs/lab2/lab1starterfiles/AddingMachine.sv Line: 4
