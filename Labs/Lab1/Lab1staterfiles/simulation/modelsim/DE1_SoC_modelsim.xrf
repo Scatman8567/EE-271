@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, D:/EE271/ee271labs/lab1/lab1starterfiles/DE1_SoC_golden_top.sdc
+source_file = 1, D:/EE271/ee271labs/lab1/lab1starterfiles/mux2_1.sv
+source_file = 1, D:/EE271/ee271labs/lab1/lab1starterfiles/db/DE1_SoC.cbx.xml
+design_name = mux2_1
+instance = comp, \out~output , out~output, mux2_1, 1
+instance = comp, \sel~input , sel~input, mux2_1, 1
+instance = comp, \i0~input , i0~input, mux2_1, 1
+instance = comp, \i1~input , i1~input, mux2_1, 1
+instance = comp, \out~0 , out~0, mux2_1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, mux2_1, 1

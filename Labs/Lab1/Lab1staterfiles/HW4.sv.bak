@@ -1,0 +1,12 @@
+module LeadingOnes (
+				input logic [ 3:0 ] u,
+				output reg [ 2:0 ] count);
+	always_comb
+		casex (u)
+			4'b0xxx: count = 0;
+			4'b10xx: count = 1;
+			4'b110x: count = 2;
+			4'b1110: count = 3;
+			4'b1111: count = 4;
+		endcase
+endmodule
