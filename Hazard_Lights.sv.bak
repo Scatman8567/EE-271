@@ -1,9 +1,0 @@
-module HazardLights (
-			input logic clock, left, right, reset
-			output logic [2:0] output);
-	
-	// enumerating variables
-	enum {S0, S1, S2, S3} ps, ns;
-	
-	
-	
