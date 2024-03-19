@@ -1,0 +1,10 @@
+module computerButton(Clock, Reset, LSRF, SW, out);
+					output logic out;
+					input logic Clock, Reset;
+					input logic [ 9:0 ] LFSR;
+					input logic [ 8:0 ] SW;
+	logic [ 9:0 ] ext;
+	
+	assign ext = {1'b0, SW}; 
+	comparator computer(.Clock, .Reset, .A(ext), .B(LFSR), .out(out));
+endmodule

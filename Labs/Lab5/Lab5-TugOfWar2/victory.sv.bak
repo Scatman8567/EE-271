@@ -1,0 +1,27 @@
+module victory (
+				input logic clk, reset, LED9, LED1, L, R;
+				output logic [ 6:0 ] w;
+				
+	enum {off, P1, P2} ps, ns;
+	
+	always_comb begin
+		case(ps)
+			off: if(LED9 & L & ~R) ns = P1;
+				  else if (LED1 & R & ~L) ns = PS;
+				  else ns = off;
+			P1: ns = P1;
+			P2: ns = P2;
+		endcase
+	end
+	always_comb begin
+		if (ns == P1) w = 7'b1111001;
+		else if (ns == P2) w = 7'b0100100;
+		else winner = 7'b1111111;
+	end
+	always_ff @(posedge clk) begin
+		if(reset)
+			ps <= off;
+		else
+			ps <= ns;
+	end
+endmodule

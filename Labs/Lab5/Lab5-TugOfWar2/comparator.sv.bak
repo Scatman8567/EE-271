@@ -1,0 +1,39 @@
+module comparator (Clock, Reset, A, B, out);
+				input logic clk, reset;
+				input logic [ 9:0 ] A, B;
+				output logic out;
+	
+	always_ff @(posedge Clock) begin
+		if (Reset)
+			out <= 0;
+		else out <= (A > B);
+	end
+endmodule
+
+module comparatorTestbench();
+	logic out;
+	logic Clock, Reset;
+	logic [ 9:0 ] A, B;
+	
+	comparator dut(.Clock, .Reset, .A, .B, .out);
+	// Set up a simulated clock.
+	parameter clock_period = 100;
+		
+	initial begin
+		Clock <= 0;
+		forever #(clock_period /2) Clock <= ~Clock;
+					
+	end
+	// Test the design.
+	initial begin
+		Reset <= 1;	 											@(posedge Clock);
+																	@(posedge Clock);
+		Reset <= 0;												@(posedge Clock);
+																	@(posedge Clock);
+		A <= 10'b0000010000; B <= 10'b0000100000;		@(posedge Clock);
+																	@(posedge Clock);
+		A <= 10'b1000000000; B <= 10'b0000010000;		@(posedge Clock);
+		$stop // stop the simulation
+	end
+endmodule
+		

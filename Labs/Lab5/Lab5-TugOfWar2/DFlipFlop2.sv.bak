@@ -1,0 +1,10 @@
+module DFlipFlop2 (Clock, Reset, key, o);
+			input logic Clock, Reset, key;
+			output logic o;
+			
+	logic series1
+	always_ff @(posedge Clock)
+		series1 <= key;
+	always_ff @(posedge Clock)
+		out <= series1;
+endmodule

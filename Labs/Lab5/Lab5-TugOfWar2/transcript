@@ -1,0 +1,42 @@
+# Reading D:/EE271/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+run runlab.do
+# No Design Loaded!
+do D:/EE271/ee271labs/lab5/lab1starterfiles/runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:19:11 on Feb 23,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SocTestbench
+# 
+# Top level modules:
+# 	DE1_SocTestbench
+# End time: 19:19:11 on Feb 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SocTestbench 
+# Start time: 19:19:12 on Feb 23,2024
+# Loading sv_std.std
+# Loading work.DE1_SocTestbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.tenBitLFSR
+# Loading work.computerButton
+# Loading work.comparator
+# Loading work.DFlipFlop2
+# Loading work.player
+# Loading work.normalLight
+# Loading work.centerLight
+# Loading work.victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Chase  Hostname: CHASE-ROG-17  ProcessID: 25928
+#           Attempting to use alternate WLF file "./wlftxrzmq3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxrzmq3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(136)
+#    Time: 4550 ps  Iteration: 1  Instance: /DE1_SocTestbench
+# Break in Module DE1_SocTestbench at ./DE1_SoC.sv line 136
+# End time: 19:26:14 on Feb 23,2024, Elapsed time: 0:07:02
+# Errors: 0, Warnings: 2
